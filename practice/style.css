@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+  }
+.wrap{
+  width: 90%;
+  margin: auto;
+  background: black;
+}
+.content{
+  background: red;
+  float: left;
+  width: 70%;
+
+}
+aside,.content{
+  height: 500px;
+    float: left;
+}
+aside{
+  background: blue;
+  width: 30%;
+  float: left;
+
+
+}
+li{
+  display: inline;
+  padding-right: 10px;
+}
+a {
+  color: yellow;
+}
+aside ul{
+
+  list-style: none;
+  padding-left: 0;
+}
+ul a{
+  text-decoration: none;
+}
+ul a:hover{
+  text-decoration: inherit;
+  color: orange;
+  font-size: 25px;
+}
+}
